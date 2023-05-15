@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/texts.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="stylesheet" href="./src/styles/media.css">
+    <title>Rede Social</title>
+</head>
+<body>
+    <header>
+        <nav class="main__container">
+            <h1>TechPosters</h1>
+            <a href="#">Sair</a>
+        </nav>
+    </header>
+
+    <main class="main__container">
+        <section class="topContent">
+            <div class="user__container">  
+                <div class="user">
+                    <img src="./src/assets/img/user1.svg" alt="">
+                    <div class="user__container--info">
+                        <h4>Samuel Leão</h4>
+                        <small>Front-end Engineer</small>
+                    </div>
+                </div>
+
+                <form class="textArea__container">
+                    <textarea class="textArea__postTitle" name="post__title" placeholder="Escreva o título do post..."></textarea>
+                    <textarea class="textArea__postContent" name="post__content" placeholder="Digite a descrição do post"></textarea>
+                    <div>
+                        <button type="submit" id="button__insertPost">Postar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <aside>
+            <h4>Sugestões para você seguir:</h4>
+            <div class="recommendedUsers">
+                <ul class="recommendedUsers__container">
+                    <!-- <li class="recommendedUsers__user">
+                        <div class="recommendedUsers__user--head">
+                            <img src="./src/assets/img/user1.svg" alt="">
+                            <div class="recommendedUsers__user--info">
+                                <h4>Carlos Lima</h4>
+                                <small>UX e UI Designer</small>
+                            </div>
+                        </div>
+                        <button class="button__follow"></button>
+                    </li> -->
+                </ul>
+            </div>
+        </aside>
+
+        
+        
+        <section class="postSection">
+            <h2>Posts</h2>
+
+            <div class="posts">
+                <ul class="posts__container">
+                    <!-- <li class="posts__item">
+                        <div class="posts__author">
+                            <img src="./src/assets/img/user1.svg" alt="">
+                            <div class="posts__author--info">
+                                <h4>Samuel Leão</h4>
+                                <small>Front-end Engineer</small>
+                            </div>
+                        </div>
+
+                        <div class="posts__title--container">
+                            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                        </div>
+
+                        <div class="posts__content--container">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, dolorem tenetur sequi totam non quaerat veritatis doloremque nostrum debitis porro voluptatibus veniam iste praesentium error omnis, est sint, vero rerum</p>
+                        </div>
+
+                        <div class="posts__buttons--container">
+                            <button class="button__openPost">Abrir Post</button>
+                            <button class="button__like">Like</button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+        
+        <!-- MODAL -->
+        <!-- <section class="modal__container">
+            <div class="modal__body">
+                <div class="modal__header">
+                    <div class="modal__author">
+                        <img src="./src/assets/img/user1.svg" alt="">
+                        <div class="modal__author--info">
+                            <h4>Samuel Leão</h4>
+                            <small>Front-end Engineer</small>
+                        </div>
+                    </div>
+                    <button class="button__modal--close">X</button>
+                </div>
+
+                <div class="modal__post--title">
+                    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                </div>
+
+                <div class="modal__posts--content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, dolorem tenetur sequi totam non quaerat veritatis doloremque nostrum debitis porro voluptatibus veniam iste praesentium error omnis, est sint, vero rerum</p>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+
+
+    <script src="./src/scripts/sugestUsers.js"></script>
+    <script src="./src/scripts/users.js"></script>
+    <script src="./src/scripts/posts.js"></script>
+    <script src="./src/scripts/index.js"></script>
+</body>
+</html>

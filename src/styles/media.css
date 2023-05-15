@@ -1,0 +1,51 @@
+@media (min-width: 769px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .main__container {
+        max-width: 1440px;
+    }
+
+    .user__container {
+        width: 100%;
+    }
+
+    aside {
+        position: sticky;
+        top: 120px;
+        width: 21rem;
+        margin: 0 0;
+        height: min-content;
+    }
+
+    .recommendedUsers__container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .recommendedUsers__user {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .button__follow {
+        height: 2rem;
+    }
+
+    .topContent{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        height: 35rem;
+    }
+
+    .postSection {
+        width: 50%;
+    }
+
+
+}

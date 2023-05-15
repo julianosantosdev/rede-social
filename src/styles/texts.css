@@ -1,0 +1,53 @@
+h1, h2 {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-4);
+    line-height: var(--line-height-4);
+    color: var(--color-gray-1);
+}
+
+h4 {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-2);
+    color: var(--color-gray-1);
+}
+
+p {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-3);
+    color: var(--color-gray-2);
+}
+
+small {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+    color: var(--color-gray-2);
+}
+
+/* .text-3 {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+    color: var(--color-gray-2);
+} */
+
+.textArea__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+nav > h1, nav > a {
+    color: var(--color-white);
+}
+
+section > h2 {
+    margin: 3rem 0 2.0rem 0;
+}
+
+.posts__content--container p {
+    text-align: justify;
+    margin: 1rem 0;
+}

@@ -1,0 +1,79 @@
+button {
+    font-family: 'Inter', sans-serif;
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-3);
+    border: none;
+    padding: 0.5rem 0.875rem;
+    border-radius: var(--border-radius-2);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.button__follow {
+    width: fit-content;
+    border: 1px solid var(--color-gray-1);
+    background-color: var(--color-white);
+    border-radius: var(--border-radius-1);
+}
+
+.button__openPost {
+    background-color: var(--color-gray-1);
+    color: var(--color-white);
+}
+
+.posts__buttons--container {
+    display: flex;
+    gap: 1rem;
+}
+
+.button__follow:hover {
+    background-color: #EDF2FF;
+    border: 1px solid var(--color-brand-2);
+    color: var(--color-brand-1);
+    transition: 200ms;
+}
+
+/* .button__follow:focus {
+    background-color: var(--color-brand-1);
+    border: 1px solid var(--color-brand-2);
+    color: var(--color-white);
+    transition: 200ms;
+} */
+
+.button__openPost:hover {
+    background-color: var(--color-grey-0);
+    transition: 500ms;
+}
+
+#button__insertPost:active {
+    background-color: var(--color-brand-1);
+    color: var(--color-white);
+    transition: 500ms;
+}
+
+.button__like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+    background-color: transparent;
+}
+.button__like img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.liked {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(46%) saturate(1678%) hue-rotate(327deg) brightness(83%) contrast(103%);
+}
+
+.button__like:hover img {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(46%) saturate(1678%) hue-rotate(327deg) brightness(83%) contrast(103%);
+}
+
+.following {
+    background-color: var(--color-brand-2);
+    color: var(--color-white);
+}
+
